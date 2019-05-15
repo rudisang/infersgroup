@@ -127,7 +127,7 @@ HEADER
   min-height: 650px;
 }
 
-#main-header {}
+
 
 .navbar-default {
   background-color: transparent;
@@ -855,9 +855,6 @@ Responsive media queries
 }
 
 /*General Styling*/
-.img-scale{
-  
-}
 
 .btn {
   flex: 1 1 auto;
@@ -899,4 +896,10 @@ Responsive media queries
 
 .btn-5 {
   background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 51%, #ffecd2 100%);
+}
+
+ul.social li{
+  display: inline-block;
+  padding-top: 10px;
+  margin: 15px 15px 15px 15px;
 }
