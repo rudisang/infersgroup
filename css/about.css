@@ -170,18 +170,19 @@ body {
 
   .vision{
       color:black;
-      font-size:25px;
+      font-size:20px;
   }
 
   #vision-and-mission{
     padding-top:50px;
     padding-bottom:70px;
-    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 51%, #ffecd2 100%);
+    background-color:rgb(238, 238, 238);
      margin-top:100px;
   }
 
   #team{
       margin-top:100px;
   }
+
 
   
