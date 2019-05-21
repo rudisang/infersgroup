@@ -8,14 +8,14 @@ body {
     overflow-x: hidden;
   }
 .header {
-  background: url('../img/abstract-2jpg.jpg') no-repeat fixed;
+  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
     background-size: cover;
     min-height: 650px;
     position: relative;
   }
   
   .bg-color {
-    background-color: rgba(255, 255, 255, 0.354);
+    
     min-height: 650px;
   }
   
@@ -84,7 +84,7 @@ body {
   
   .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     background-color: transparent;
-    color: #008562;
+    color: #969696;
   }
   
   .banner-info {

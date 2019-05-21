@@ -8,19 +8,19 @@ body {
   overflow-x: hidden;
 }
 .header {
- 
-  background: url('../img/back2.jpg') no-repeat fixed;
- 
+  background: url('../img/abstract-2jpg.jpg') no-repeat fixed;
   background-size: cover;
-  min-height: 650px;
+  
   position: relative;
 }
 
 .bg-color {
-  
+  background-color: rgba(255, 255, 255, 0.354);
   min-height: 650px;
 }
-
+.lead{
+  font-size: 16px;
+}
 
 
 .navbar-default {
@@ -74,24 +74,24 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   background: transparent;
-  color: rgb(255, 255, 255);
+  color: rgb(140, 140, 140);
   -webkit-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: #8e9bbd;
+  color: #818eb3;
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   background-color: transparent;
-  color: #8e9bbd;
+  color: #202020;
 }
 
 .banner-info {
   padding-top: 140px;
-  color: #8e9bbd;
+  color: #fff;
 }
 
 .bnr-title, .bnr-sub-title {
@@ -172,7 +172,7 @@ section {
 }
 .wrap {
   display: flex;
-  
+  background: white;
   padding: 1rem 1rem 1rem 1rem;
   border-radius: 0.5rem;
   box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
@@ -225,10 +225,4 @@ p {
   .cust-container{
     width:80%;
     margin:auto;
-  }
-
-  .flex-container {
-    display: flex;
-    flex-wrap: nowrap;
-    background-color: DodgerBlue;
   }
