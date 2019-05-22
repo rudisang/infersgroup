@@ -2,7 +2,7 @@
 
 body {
   line-height: 1.4;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #67696c;
   font-size: 16px;
   font-weight: 300;
@@ -29,7 +29,7 @@ table {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
 
@@ -123,7 +123,64 @@ HEADER
   min-height: 650px;
 }
 
+.downArrow{
 
+	bottom: 45%;
+	left: 50%;
+}
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
 
 .navbar-default {
   background-color: transparent;
@@ -153,7 +210,7 @@ HEADER
 
 .navbar-default .navbar-brand {
   color: #fff;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
 
@@ -197,7 +254,7 @@ HEADER
 }
 
 .bnr-title, .bnr-sub-title {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1.bnr-title {
@@ -261,21 +318,45 @@ h2.bnr-sub-title {
 Projects Section
 ************************************
 ***********************************/
-#feature{
-  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
-}
 
 .projects:hover{
   cursor: pointer;
   transition-duration: 1s;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+  background: #F3F4F8; 
   
 }
 
 .projects{
   border-radius:20px;
 }
+
+
+
+#service p{
+  font-size: 20px;
+}
+
+/***********************************
+************************************
+MANDATE
+************************************
+***********************************/
+#mandate h2{
+font-size:40px;
+}
+
+#mandate p{
+  font-size:15px;
+  text-align:center;
+  }
+
+  #mandate img{
+    display:block;
+    margin:auto;
+    width:200px;
+  }
+
 /***********************************
 ************************************
 features
@@ -283,7 +364,7 @@ features
 ***********************************/
 
 .title, .service-title {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 35px;
   text-transform: uppercase;
 }
@@ -293,7 +374,7 @@ features
 }
 
 .sub-title {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .bottom-line {
@@ -444,7 +525,7 @@ ul.service-list li i {
 }
 
 .portfolio-item figure h2 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
   font-size: 20px;
   text-align: left;
@@ -557,7 +638,7 @@ TESTIMONIAL
   position: absolute;
   font-weight: 300;
   font-size: 3em;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #ccc;
   top: 62%;
 }
@@ -1050,3 +1131,4 @@ h2{
 .slick-arrow.slick-hidden {
     display: none;
 }
+
