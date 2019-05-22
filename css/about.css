@@ -19,7 +19,16 @@ body {
     min-height: 650px;
   }
   
-  
+  .downArrow{
+
+    bottom: 45%;
+    left: 50%;
+  }
+  .bounce {
+    -moz-animation: bounce 3s infinite;
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
+  }
   
   .navbar-default {
     background-color: transparent;
