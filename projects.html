@@ -7,11 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway&display=swap" rel="stylesheet"> 
     <link href="img/logos/favicon.png" rel="icon">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <script src="/bower_components/webcomponentsjs/webcomponents-loader.js"></script>
+    <link rel="import" href="/bower_components/polymer/polymer.html">
+    <link rel="import" href="components/footer.html">
     <link rel="stylesheet" href="css/projects.css">
     <title>infersgroup - Projects</title>
 </head>
@@ -30,8 +33,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="#"><img style="margin-top:-10px" width=50
-                                    src="img/logos/logo.png" alt="logo"></a>
+                            <a class="navbar-brand" href="#">infersgroup</a>
                         </div>
                         <div class="collapse navbar-collapse" id="myNavbar">
                             <ul class="nav navbar-nav navbar-right">
@@ -67,7 +69,7 @@
     <main>
         <section class="cust-container" id="projects">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6" id="nano">
                     <img src="img/projects/nano.jpg"  style="border-radius:50%;margin:auto;display:block;"
                         alt="Generic placeholder image" width="340" height="340">
                     <h2>Nanoverse and Nanoworld Comic Book project with Botswana Institute of Technology Research and
@@ -77,7 +79,7 @@
                         the possibilities of nanotechnology and its application in terms of social impact.</p>
                     
                 </div><!-- /.col-lg-4 -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" id="genome">
                     <img class="featurette-image img-fluid mx-auto" style="border-radius:50%;margin:auto;display:block;"
                         width=340 src="img/projects/genomeb.jpg" alt="trainer image">
                     <h2>Genome Adventures Comic Book Project with Baylor Pediatric
@@ -113,7 +115,7 @@
                         <img class="featurette-image img-fluid mx-auto" width=500 style="padding-top:70px;display:block;margin:auto;" src="img/projects/sadc.png"
                             alt="Watermellon image">
                     </div>
-                    <div class="col-md-7 order-md-2">
+                    <div class="col-md-7 order-md-2" id="gcc">
                         <h2 class="featurette-heading">Gaborone: SADC Creative Capital
                             2022.</span></h2>
                         <p class="lead">Infers Group, in partnership with other emerging
@@ -164,7 +166,7 @@
                 <hr class="featurette-divider">
 
                 <div class="row featurette">
-                    <div class="col-md-7">
+                    <div class="col-md-7" id="dira">
                         <h2 class="featurette-heading">Dira Digital Platform
                         </h2>
                         <p class="lead">Dira is a digital platform that networks people’s expertise and collaborative projects. The website is a platform for sharing expertise and technocracy in the city and presents an element of social cohesion and cooperation, similar to mafisa. Its unique features are that it primarily networks people with expertise 
@@ -186,7 +188,7 @@
                         <img class="featurette-image img-fluid mx-auto" style="border-radius:50%" 
                             src="img/projects/ahfi.png" alt="yoga instructor image">
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-7" id="arting">
                         <h2 class="featurette-heading">Arting Health for Impact (2017 -2019)</h2>
                         <p class="lead">
                                 Arting Health for Impact is an international collaborative public engagement partnership
@@ -202,12 +204,10 @@
             </div>
         </section>
 
-        <section style="background: url('img/afro.jpg');background-size:cover;height:90vh">
-            
-        </section>
     </main>
-    <hr class="featurette-divider">
-    <footer id="footer" style="padding-bottom:70px">
+    
+    <custom-footer></custom-footer>
+    <div id="footer" style="padding-bottom:70px">
         <div class="container">
           <div class="row text-center">
             <p>&copy; 2015 Infers Group PTY (LTD). All Rights Reserved.</p>
@@ -217,7 +217,7 @@
             </div>
           </div>
         </div>
-      </footer>
+    </div>
 
 
 

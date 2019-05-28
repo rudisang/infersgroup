@@ -2,7 +2,7 @@
 
 body {
   line-height: 1.4;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #67696c;
   font-size: 16px;
   font-weight: 300;
@@ -29,7 +29,7 @@ table {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
 }
 
@@ -210,7 +210,7 @@ HEADER
 
 .navbar-default .navbar-brand {
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
 
@@ -254,7 +254,7 @@ HEADER
 }
 
 .bnr-title, .bnr-sub-title {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1.bnr-title {
@@ -364,7 +364,7 @@ features
 ***********************************/
 
 .title, .service-title {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 35px;
   text-transform: uppercase;
 }
@@ -525,7 +525,7 @@ ul.service-list li i {
 }
 
 .portfolio-item figure h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #fff;
   font-size: 20px;
   text-align: left;
@@ -638,7 +638,7 @@ TESTIMONIAL
   position: absolute;
   font-weight: 300;
   font-size: 3em;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #ccc;
   top: 62%;
 }

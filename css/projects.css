@@ -1,6 +1,6 @@
 body {
   line-height: 1.4;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #67696c;
   font-size: 16px;
   font-weight: 300;
@@ -15,8 +15,8 @@ body {
 }
 
 .bg-color {
-  background-color: rgba(255, 255, 255, 0.354);
-  min-height: 650px;
+  
+  min-height: 650px; 
 }
 .lead{
   font-size: 16px;
@@ -61,7 +61,7 @@ body {
 
 .navbar-default .navbar-brand {
   color: #fff;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
 }
 
@@ -84,7 +84,7 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   background: transparent;
-  color: rgb(140, 140, 140);
+  color: rgb(255, 255, 255);
   -webkit-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
 }
@@ -105,7 +105,7 @@ body {
 }
 
 .bnr-title, .bnr-sub-title {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 h1.bnr-title {
@@ -216,7 +216,7 @@ h2 {
   margin-bottom: 0.5rem;
 }
 .display-5 {
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.4rem;
 }
 .mbr-bold {
@@ -229,7 +229,7 @@ p {
   line-height: 25px;
 }
 .display-6 {
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1re}
 
   .cust-container{

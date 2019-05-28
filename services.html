@@ -7,11 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway&display=swap" rel="stylesheet"> 
   <link href="img/logos/favicon.png" rel="icon">
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <script src="/bower_components/webcomponentsjs/webcomponents-loader.js"></script>
+  <link rel="import" href="/bower_components/polymer/polymer.html">
+  <link rel="import" href="components/footer.html">
   <link rel="stylesheet" href="css/services.css">
   <title>infersgroup - services</title>
 </head>
@@ -30,8 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#"><img style="margin-top:-10px;margin-left:30px" width=50 src="img/logos/logo.png"
-                  alt="logo"></a>
+              <a class="navbar-brand" href="#">infersgroup</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav navbar-right">
@@ -109,7 +111,7 @@
       <div class="row">
         <hr class="featurette-divider">
         <div class="row featurette ">
-          <div class="col-md-7 wow fadeInUp delay-05s">
+          <div class="col-md-7 wow fadeInUp delay-05s" id="km">
             <h2 class="featurette-heading">Knowledge<span class="text-muted"> Management</span></h2>
             <ul>
               <li>Monitoring and Evaluation for programmes and projects.</li>
@@ -128,7 +130,7 @@
         <hr class="featurette-divider">
 
         <div class="row featurette">
-          <div class="col-md-5 order-md-1 wow fadeInUp delay-05s">
+          <div class="col-md-5 order-md-1 wow fadeInUp delay-05s" id="en">
             <img class="featurette-image img-fluid mx-auto" style="display:block;margin:auto" width=180
               src="img/net.svg" alt="Watermellon image">
           </div>
@@ -189,7 +191,7 @@
       <div class="row">
           <hr class="featurette-divider">
         <div class="row featurette">
-          <div class="col-md-7 wow fadeInUp delay-05s">
+          <div class="col-md-7 wow fadeInUp delay-05s" id="sa">
             <h2 class="featurette-heading">Strategy <span class="text-muted">&amp; Risk Assessment.</span></h2>
             <ul>
               <li>Developing strategy and implementation plans for programmes and projects.</li>
@@ -208,7 +210,7 @@
             <img class="featurette-image img-fluid mx-auto" style="display:block;margin:auto" width=180 src="img/sc.svg"
               alt="yoga instructor image">
           </div>
-          <div class="col-md-7 wow fadeInUp delay-05s">
+          <div class="col-md-7 wow fadeInUp delay-05s" id="se">
             <h2 class="featurette-heading">Science Communication &amp; <span class="text-muted">Public
                 Engagement.</span></h2>
             <ul>
@@ -222,8 +224,8 @@
       </div>
     </section>
   </main>
-
-  <footer id="footer" style="padding-bottom:70px;">
+<custom-footer></custom-footer>
+  <div id="footer" style="padding-bottom:70px;">
       <div class="container">
         <div class="row text-center">
           <p>&copy; 2015 Infers Group PTY (LTD). All Rights Reserved.</p>
@@ -234,7 +236,7 @@
         </div>
        
       </div>
-    </footer>
+    </div>
 
 
 

@@ -1,6 +1,6 @@
 body {
   line-height: 1.4;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #67696c;
   font-size: 16px;
   font-weight: 300;
@@ -60,7 +60,7 @@ body {
 
 .navbar-default .navbar-brand {
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
 }
 
@@ -104,7 +104,7 @@ body {
 }
 
 .bnr-title, .bnr-sub-title {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 h1.bnr-title {
@@ -215,7 +215,7 @@ h2 {
   margin-bottom: 0.5rem;
 }
 .display-5 {
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.4rem;
 }
 .mbr-bold {
@@ -228,7 +228,7 @@ p {
   line-height: 25px;
 }
 .display-6 {
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1re}
 
   .cust-container{
