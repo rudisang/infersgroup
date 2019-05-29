@@ -8,7 +8,7 @@ body {
     overflow-x: hidden;
   }
 .header {
-  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+  background: url('../img/back6.jpg') no-repeat fixed;
     background-size: cover;
     min-height: 650px;
     position: relative;

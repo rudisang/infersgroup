@@ -57,7 +57,7 @@
         </nav>
     </header>
 
-    <main role="main">
+    <main role="main" id="head">
 
         <div id="myCarousel" class="carousel slide" data-ride="carousel" >
             <ol class="carousel-indicators">
@@ -157,24 +157,24 @@
                     </div>
                     <div class="col-lg-4" style="margin-top:20px">
                         <img class="" src="img/ser1.svg" alt="Generic placeholder image" width="110">
-                        <h3>Knowledge Management</h3>
+                        <h3>Knowledge<br> Management</h3>
                         <p><a class="btn btn-secondary"
                                 style="background-color: transparent; color:black;border:1px solid black; width:60%"
-                                href="#" role="button">View &raquo;</a></p>
+                                href="services.html#km" role="button">View &raquo;</a></p>
                     </div><!-- /.col-lg-4 -->
                     <div class="col-lg-4" style="margin-top:20px">
                         <img class="" src="img/ser2.svg" alt="Generic placeholder image" width="110">
-                        <h3>Ecosystems &amp; Networks</h3>
+                        <h3>Ecosystems &amp;<br> Networks</h3>
                         <p><a class="btn btn-secondary"
                                 style="background-color: transparent; color:black;border:1px solid black; width:60%"
-                                href="#" role="button">View &raquo;</a></p>
+                                href="services.html#en" role="button">View &raquo;</a></p>
                     </div><!-- /.col-lg-4 -->
                     <div class="col-lg-4" style="margin-top:20px">
                         <img class="" src="img/ser3.svg" alt="Generic placeholder image" width="110">
                         <h3>Strategy &amp; Risk Assessment</h3>
                         <p><a class="btn btn-secondary"
                                 style="background-color: transparent; color:black;border:1px solid black; width:60%"
-                                href="#" role="button">View &raquo;</a></p>
+                                href="services.html#sa" role="button">View &raquo;</a></p>
                     </div><!-- /.col-lg-4 -->
                 </div><!-- /.row -->
             </section>
@@ -201,7 +201,7 @@
                         </p>
                         <p><a class="btn btn-secondary"
                                 style="background-color: transparent; color:black;border:1px solid black; width:60%"
-                                href="index.html#vision" role="button">Learn More &raquo;</a></p>
+                                href="projects.html#vision" role="button">Learn More &raquo;</a></p>
                     </div>
                     <div class="col-md-5">
                         <img class="featurette-image img-fluid mx-auto" src="img/engagement.png" style="margin-top:10px"
@@ -219,7 +219,7 @@
                             for a Uganda-based research enrichment...</p>
                         <p><a class="btn btn-secondary"
                                 style="background-color: transparent; color:black;border:1px solid black; width:60%"
-                                href="projects.html#me" role="button">&laquo; Learn More </a></p>
+                                href="projects.html#methrive" role="button">&laquo; Learn More </a></p>
                     </div>
                     <div class="col-md-5 order-md-1">
                         <img class="featurette-image img-fluid mx-auto" width=350 src="img/monitoring.png"
@@ -360,7 +360,7 @@
         <!-- FOOTER -->
         <custom-footer></custom-footer>
         <section class="container">
-            <p class="float-right"><a href="#">Back to top</a></p>
+            <p class="float-right"><a onclick="$('#head').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'}); ">Back to top</a></p>
             <p>&copy; 2015 Infers Group PTY (LTD). All Rights Reserved. Designed by <a href="#">Infers Group PTY
                     (LTD)</a></p>
         </section>
@@ -384,6 +384,7 @@
     <script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <script src="js/partners.js"></script>
+    
     <script>
         var map;
 
@@ -404,9 +405,8 @@
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUkiy5c4YomcPhIsZY85hWRUgNyjUNxhg&callback=initMap"
         async defer></script>
-     
-  <script src="js/jquery.easing.min.js"></script>
-  <script src="js/wow.js"></script>
+    
+  
 </body>
 
 </html>
